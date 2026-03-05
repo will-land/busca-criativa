@@ -1,6 +1,11 @@
 [build]
   publish = "."
 
+[context.production.environment]
+  UNSPLASH_ACCESS_KEY = "6HQyHX7yYaVxCg5CImrGgvAGJefhcV6dkJWHjGe5vAw"
+  PEXELS_API_KEY = "btq22NAraNlrLJjPXBWYnQQSn06HwEVpSXJZWXxoLAHp7XlceUUV6zmL"
+  PIXABAY_API_KEY = "42754065-904bad08659f194efc46189e1"
+
 [dev]
   publish = "."
   port = 8888
