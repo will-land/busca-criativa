@@ -231,10 +231,20 @@ img { max-width: 100%; height: auto; display: block; }
   margin-bottom: 0.5rem;
   color: var(--color-brown-dark);
 }
-.hero-bg-img {
+img.hero-bg-img {
   object-fit: cover;
-  object-position: right bottom;
-  /* Adjust based on the actual image gradient */
+  object-position: right center;
+}
+
+@media (max-width: 899px) {
+  img.hero-bg-img {
+    object-position: 80% center;
+  }
+  .hero-content {
+    background: rgba(253, 249, 243, 0.85);
+    padding: 2rem;
+    border-radius: 12px;
+  }
 }
 
 /* ==========================================
